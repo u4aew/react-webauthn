@@ -1,7 +1,9 @@
-## Webauthn React Hook
-Hook return getCredential and getAssertion
+# React-webauthn
 
-### Options
+## DEMO
+![alt text](./img/demo.gif)
+
+## Options
 
 | name            | type   | required |
 |-----------------|--------|----------|
