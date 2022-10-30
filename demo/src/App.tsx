@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from 'react';
-import {useWebAuth} from 'react-webauthn'
+import {useWebAuthn} from 'react-webauthn'
 import './App.css';
 
 const rpOptions = {
@@ -9,7 +9,7 @@ const rpOptions = {
 
 function App() {
   const [login, setLogin] = useState('')
-  const {getCredential, getAssertion} = useWebAuth(rpOptions)
+  const {getCredential, getAssertion} = useWebAuthn(rpOptions)
 
   const onChangeLogin = useCallback((e: any) => {
     setLogin(e.target.value)

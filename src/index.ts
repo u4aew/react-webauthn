@@ -1,1 +1,1 @@
-export {useWebAuth} from '@/hooks/useWebAuth';
+export {useWebAuthn} from '@/hooks/useWebAuthn';

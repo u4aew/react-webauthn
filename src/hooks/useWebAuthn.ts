@@ -14,7 +14,7 @@ export interface ICredentialOpt extends IAssertionOpt{
   userName: string;
   userDisplayName: string;
 }
-export function useWebAuth({
+export function useWebAuthn({
                              rpName,
                              rpId,
                              credentialOpt,
