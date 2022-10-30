@@ -1,5 +1,5 @@
 import React, { useCallback, useState } from 'react';
-import {useWebAuthn} from 'react-webauthn'
+import {useWebAuthn} from 'react-hook-webauthn'
 import './App.css';
 
 const rpOptions = {

@@ -1,12 +1,12 @@
 {
   "name": "react-hook-webauthn",
   "keywords": ["react", "webauthn"],
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "React hook for webauthn",
   "type": "module",
   "scripts": {
     "start:demo": "vite",
-    "build": "tsc && vite build && tsc --project tsconfig.json"
+    "build": "tsc && vite build && tsc --project tsconfig.json && tsc-alias"
   },
   "license": "ISC",
   "main": "dist/index.cjs.js",
@@ -23,6 +23,7 @@
   ],
   "dependencies": {},
   "devDependencies": {
+    "tsc-alias": "1.7.0",
     "@vitejs/plugin-react": "^2.2.0",
     "typescript": "^4.6.4",
     "vite": "^3.2.0"
