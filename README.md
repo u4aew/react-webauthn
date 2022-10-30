@@ -9,7 +9,7 @@ npm i react-hook-webauthn
 
 ## Usage
 
-```
+```js
 import React, { useCallback, useState } from 'react';
 import {useWebAuthn} from 'react-hook-webauthn'
 import './App.css';
