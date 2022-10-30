@@ -1,5 +1,6 @@
 {
   "name": "react-hook-webauthn",
+  "keywords": ["react", "webauthn"],
   "version": "1.0.0",
   "description": "React hook for webauthn",
   "type": "module",
