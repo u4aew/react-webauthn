@@ -1,3 +1,4 @@
+[![npm version](https://badge.fury.io/js/react-hook-webauthn.svg)](https://badge.fury.io/js/react-hook-webauthn)
 # React-hook-webauthn
 Simple Hook for react, serverless use of webAuthn
 
