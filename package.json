@@ -1,5 +1,5 @@
 {
-  "name": "@u4aew/react-webauthn",
+  "name": "react-hook-webauthn",
   "version": "1.0.0",
   "description": "React hook for webauthn",
   "type": "module",
@@ -31,6 +31,6 @@
     "url": "https://github.com/u4aew/react-webauthn"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/u4aew"
+    "registry": "https://registry.npmjs.org/"
   }
 }
