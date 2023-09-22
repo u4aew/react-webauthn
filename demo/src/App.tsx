@@ -57,7 +57,7 @@ function App() {
         </div>
         <div className={'qrCode'} dangerouslySetInnerHTML={{ __html: qrCode }} />
         <div className="section">
-          <input onInput={onChangeLogin} placeholder="login" type="text"/>
+          <input onInput={onChangeLogin} value={login} placeholder="login" type="text"/>
         </div>
          <div className="section">
            <button onClick={onRegister} type="button">register</button>
