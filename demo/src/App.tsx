@@ -11,7 +11,7 @@ const rpOptions = {
 }
 
 function App() {
-  const [login, setLogin] = useState('')
+  const [login, setLogin] = useState('Login')
   const {getCredential, getAssertion} = useWebAuthn(rpOptions)
 
   const onChangeLogin = useCallback((e: any) => {
