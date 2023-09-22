@@ -8,6 +8,28 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+main {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background: white;
+  color: black;
+  padding: 40px 20px;
+  border-radius: 5px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0 7px 29px 0;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.links-item {
+  display: block;
+  margin: 0 15px;
+}
+.links-item img {
+  width: 50px;
+}
 
 .App-logo {
   height: 40vmin;
@@ -51,7 +73,21 @@ input {
   padding: 10px 12px;
   box-sizing: border-box;
   border-radius: 16px;
-  border: none;
+  border: 1px solid #5e35b1;
+}
+
+.title {
+  text-align: center;
+  font-size: 16px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.qrCode {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
 button:hover {
