@@ -4,7 +4,7 @@
     "react",
     "webauthn"
   ],
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "React hook for webauthn",
   "type": "module",
   "scripts": {
