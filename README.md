@@ -1,6 +1,7 @@
 [![npm version](https://badge.fury.io/js/react-hook-webauthn.svg)](https://badge.fury.io/js/react-hook-webauthn)
 # React-hook-webauthn
 Simple Hook for react, serverless use of webAuthn
+![demo](./img/demo.gif)
 
 ## Installing as a package
 
@@ -63,8 +64,6 @@ function App() {
 
 export default App;
 ```
-## Demo
-![demo](./img/demo.gif)
 
 ## Options
 | name            | type   | required |
