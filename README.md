@@ -3,6 +3,7 @@
 Simple Hook for react, serverless use of webAuthn
 
 A detailed setup process can be read in this [article](https://dev.to/u4aew/adding-webauthnto-the-web-application-59gp).
+
 ![demo](./img/demo.gif)
 
 ## Installing as a package
