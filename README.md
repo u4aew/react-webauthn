@@ -11,7 +11,7 @@ npm i react-hook-webauthn
 ```
 
 ## Usage
-
+A detailed setup process can be read in this [article](https://dev.to/u4aew/adding-webauthnto-the-web-application-59gp).
 ```js
 import React, { useCallback, useState } from 'react';
 import {useWebAuthn} from 'react-hook-webauthn'
