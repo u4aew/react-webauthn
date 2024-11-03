@@ -6,7 +6,7 @@ import { QRCode, QRSvg } from 'sexy-qr';
 import Links from "./components/Links";
 
 const rpOptions = {
-  rpId: 'webauthn.fancy-app.site',
+  rpId: 'webauthn.fancyapp.site',
   rpName: 'my super app'
 }
 
